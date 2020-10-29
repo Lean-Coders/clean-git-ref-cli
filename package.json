@@ -1,0 +1,22 @@
+{
+  "name": "@leancoders/clean-git-ref-cli",
+  "version": "0.0.1",
+  "description": "cli wrapper for the 'clean-git-ref'-package",
+  "type": "module",
+  "bin": {
+    "cgrc": "cli.mjs"
+  },
+  "files": [
+    "cli.mjs"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Flo Bacher <flo@lean-coders.at>",
+  "license": "ISC",
+  "dependencies": {
+    "clean-git-ref": "^2.0.1"
+  },
+  "engines" : { "node" : ">=14.15.0" }
+}
